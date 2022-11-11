@@ -1,0 +1,17 @@
+.about-container{
+    margin-top: 5px;
+    background-color: #f1f5f8;
+    padding: 50px;
+    height: 100vh;
+    text-align: center;
+}
+.about-container p{
+    padding-top: 30px;
+    letter-spacing: 4px;
+    line-height: 30px;
+}
+@media screen and (max-width: 850px) {
+    .about-container{
+        height: auto;
+    }
+}
